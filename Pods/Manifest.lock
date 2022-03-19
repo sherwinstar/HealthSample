@@ -1,0 +1,49 @@
+PODS:
+  - Anchorage (4.5.0)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - RIBs (0.9.3):
+    - RxRelay (~> 6.0.0)
+    - RxSwift (~> 6.0.0)
+  - RxRelay (6.0.0):
+    - RxSwift (= 6.0.0)
+  - RxSwift (6.0.0)
+
+DEPENDENCIES:
+  - Anchorage
+  - Charts (from `https://github.com/danielgindi/Charts.git`, tag `v3.6.0`)
+  - RIBs (from `https://github.com/uber/RIBs.git`, tag `v0.12.0`)
+
+SPEC REPOS:
+  trunk:
+    - Anchorage
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Charts:
+    :git: https://github.com/danielgindi/Charts.git
+    :tag: v3.6.0
+  RIBs:
+    :git: https://github.com/uber/RIBs.git
+    :tag: v0.12.0
+
+CHECKOUT OPTIONS:
+  Charts:
+    :git: https://github.com/danielgindi/Charts.git
+    :tag: v3.6.0
+  RIBs:
+    :git: https://github.com/uber/RIBs.git
+    :tag: v0.12.0
+
+SPEC CHECKSUMS:
+  Anchorage: 1961bc81c84aeed54ad7ffc697c50cd9de748ba6
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  RIBs: dd8df1129289d51ed4fec6e2127613d9eaba204e
+  RxRelay: 8d593be109c06ea850df027351beba614b012ffb
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+
+PODFILE CHECKSUM: bac06bd51e19e8794d31a3e84d45a7b6fed561f5
+
+COCOAPODS: 1.10.0
